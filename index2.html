@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أخبار الغرفة</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="page page--hidden" id="page-news">
+    <section class="hero hero--inner">
+       <nav >
+    
+        <a href="index.html" class="logo">
+                        <img class="img-responsive" src="img/logo.png" alt="" title="غرفة دمشق">
+                    </a>     
+                    <div class="menu-bar"   id="menubar" >               
+        
+             <i class="material-icons"  onclick="hideMenu()">close</i>
+
+    <ul >           
+        <li><a  href="#">اتصل بنا</a></li>
+        <li><a  href="#">مكتبة الصور</a></li>
+        <li><a  href="#">الخدمات</a> </li>
+        <li><a  href="#"><i  class="fa fa-sort-desc"></i>التدريبات</a>
+                <div class="sub-menu-1">
+                        <ul>
+                                <li><a href="#">التسجيل بالدورات </a></li>
+                                <li><a href="#">الدورات المتاحة</a></li>
+                                <li><a href="#">الدورات السابقة</a></li>
+                        </ul>
+                </div>
+        </li>
+        <li><a  href="#"> القرارات</a></li>
+        <li><a  href="#"><i  class="fa fa-sort-desc"></i>مجلس الإدارة</a>
+                <div class="sub-menu-1">
+                        <ul>
+                                <li><a href="#">مجلس إدارة الغرفة</a></li>
+                                <li><a href="#">لجان الغرفة</a></li>
+                        </ul>
+                </div>
+        </li>
+        <li ><a  href="#"><i  class="fa fa-sort-desc"></i> أخر الأخبار</a>
+                <div class="sub-menu-1">
+
+                        <ul>
+                    <li><a href="index2.html">أخبارالغرفة</a></li>
+                    <li><a href="#">فعاليات الغرفة</a></li>
+                    <li><a href="#">اجتماعات المجلس</a></li>
+                    <li><a href="#">المناسبات</a></li>
+                </ul>
+                </div>        
+        </li>
+        <li class="active"><a  href="index.html">الرئيسية</a></li>
+
+    </ul>
+         </div>
+                <i class="material-icons"  onclick="showMenu()">menu</i>
+                </nav>
+
+     
+    </section>
+
+    <!-- CONTENT AREA -->
+    <main class="content-area">
+      <div class="content-header">
+        <h1 class="content-title">أخبار الغرفة</h1>
+        <div class="content-header-row">
+          <span class="content-section-label">آخر الأخبار</span>
+          <div class="content-search">
+            <span class="content-search-placeholder">بحث في الأخبار</span>
+            <img src="assets/icon-search.svg" alt="بحث" class="content-search-icon" />
+          </div>
+        </div>
+      </div>
+
+      <!-- NEWS LIST -->
+      <div class="news-list">
+
+        <!-- Article Row 1 -->
+        <div class="news-row" data-page-link="article">
+          <div class="news-row__content">
+            <div class="news-row__tag-row">
+              <span class="tag tag--commerce">التجارة</span>
+              <img src="assets/tag-commerce.svg" alt="" class="tag-icon" />
+            </div>
+            <h3 class="news-row__title">غرفة تجارة دمشق تنظم طاولة بمشاركة أكثر من 70 من قادة قطاع الذهب والمجوهرات لتطوير مرونة القطاع</h3>
+            <span class="news-row__date">07 أبريل 2026</span>
+          </div>
+          <img src="assets/event-2.png" alt="خبر 1" class="news-row__img" />
+        </div>
+
+        <!-- Article Row 2 -->
+        <div class="news-row" data-page-link="article">
+          <div class="news-row__content">
+            <div class="news-row__tag-row">
+              <span class="tag tag--news">أخبار</span>
+              <img src="assets/tag-news.svg" alt="" class="tag-icon" />
+            </div>
+            <h3 class="news-row__title">المهندس عصام الغريواتي: نتوجه الأسبوع القادم إلى عمّان لتوقيع دمشق وعمّان وإطلاق شراكات استراتيجية:</h3>
+            <span class="news-row__date">06 أبريل 2026</span>
+          </div>
+          <img src="assets/article-1.png" alt="خبر 2" class="news-row__img" />
+        </div>
+
+        <!-- Article Row 3 -->
+        <div class="news-row" data-page-link="article">
+          <div class="news-row__content">
+            <div class="news-row__tag-row">
+              <span class="tag tag--commerce">التجارة</span>
+              <img src="assets/tag-commerce.svg" alt="" class="tag-icon" />
+            </div>
+            <h3 class="news-row__title">د. عامر خربوطلي: شراكات اجتماعية منتجة لبناء اقتصاد مستدام:</h3>
+            <span class="news-row__date">05 أبريل 2026</span>
+          </div>
+          <img src="assets/article-2.png" alt="خبر 3" class="news-row__img" />
+        </div>
+
+        <!-- Article Row 4 -->
+        <div class="news-row" data-page-link="article">
+          <div class="news-row__content">
+            <div class="news-row__tag-row">
+              <span class="tag tag--news">أخبار</span>
+              <img src="assets/tag-news.svg" alt="" class="tag-icon" />
+            </div>
+            <h3 class="news-row__title">مناقشة موازنة عام 2026 وإطلاق خدمات جديدة خلال اجتماع مجلس إدارة غرفة تجارة دمشق:</h3>
+            <span class="news-row__date">03 أبريل 2026</span>
+          </div>
+          <img src="assets/article-3.png" alt="خبر 4" class="news-row__img" />
+        </div>
+
+        <!-- Article Row 5 -->
+        <div class="news-row" data-page-link="article">
+          <div class="news-row__content">
+            <div class="news-row__tag-row">
+              <span class="tag tag--news">أخبار</span>
+              <img src="assets/tag-news.svg" alt="" class="tag-icon" />
+            </div>
+            <h3 class="news-row__title">مناقشة موازنة عام 2026 وإطلاق خدمات جديدة خلال اجتماع مجلس إدارة غرفة تجارة دمشق:</h3>
+            <span class="news-row__date">02 أبريل 2026</span>
+          </div>
+          <img src="assets/event-1.png" alt="خبر 5" class="news-row__img" />
+        </div>
+
+      </div><!-- /news-list -->
+
+      <!-- PAGINATION -->
+      <div class="pagination-bar">
+        <span class="pagination-info">عرض 1 - 5 من 479 نتائج.</span>
+        <div class="pagination">
+          <button class="page-btn page-btn--nav" aria-label="الصفحة التالية">
+            <img src="assets/icon-pagination-prev.svg" alt="&lt;" />
+          </button>
+          <button class="page-btn page-btn--active">1</button>
+          <button class="page-btn">2</button>
+          <button class="page-btn">3</button>
+          <button class="page-btn page-btn--ellipsis">...</button>
+          <button class="page-btn">96</button>
+          <button class="page-btn page-btn--nav" aria-label="الصفحة السابقة">
+            <img src="assets/icon-pagination-next.svg" alt="&gt;" />
+          </button>
+        </div>
+      </div>
+
+      <!-- CTA SECTION -->
+      <section class="cta-section">
+        <h2 class="cta-title">هل أنت مستعد للارتقاء بأعمالك؟</h2>
+        <p class="cta-subtitle">يمكن لأعضاء غرفة تجارة دمشق الاستفادة من مجموعة من المزايا الحصرية، بما في ذلك:</p>
+        <div class="cta-features">
+          <div class="cta-feature">
+            <img src="assets/icon-membership.svg" alt="" class="cta-feature-icon" />
+            <span class="cta-feature-label">تيسير ودعم الأعمال</span>
+          </div>
+          <div class="cta-feature">
+            <img src="assets/icon-membership.svg" alt="" class="cta-feature-icon" />
+            <span class="cta-feature-label">الفعاليات والشبكات</span>
+          </div>
+          <div class="cta-feature">
+            <img src="assets/icon-membership.svg" alt="" class="cta-feature-icon" />
+            <span class="cta-feature-label">التجارة الذكية</span>
+          </div>
+        </div>
+        <button class="cta-btn">انضم إلى العضوية</button>
+      </section>
+
+    </main>
+
+    <!-- FOOTER NEWS -->
+    <footer class="site-footer site-footer--dark">
+      <div class="footer-inner">
+        <h3 class="footer-title">Address</h3>
+        <div class="footer-contacts">
+          <div class="footer-contact-item">
+            <img src="assets/icon-phone.svg" alt="" class="footer-icon" />
+            <span dir="ltr">+963-11-9953</span>
+          </div>
+          <div class="footer-contact-item">
+            <img src="assets/icon-email.svg" alt="" class="footer-icon" />
+            <span>Info@Dcc.Sy</span>
+          </div>
+          <div class="footer-contact-item">
+            <img src="assets/icon-location.svg" alt="" class="footer-icon" />
+            <span>الحريقة - دمشق - سوريا</span>
+          </div>
+        </div>
+        <div class="footer-social">
+          <img src="assets/social-icons-2.svg" alt="Social Media Icons" class="footer-social-img" />
+        </div>
+      </div>
+    </footer>
+  </div><!-- /page-news -->
+
+</body>
+</html>

@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>غرفة تجارة دمسق</title>
+    <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Katibeh&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Harmattan:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <section class="header">
+         <nav >
+    
+        <a href="index.html" class="logo">
+                        <img class="img-responsive" src="img/logo.png" alt="" title="غرفة دمشق">
+                    </a>     
+                    <div class="menu-bar"   id="menubar" >               
+        
+             <i class="material-icons"  onclick="hideMenu()">close</i>
+
+    <ul >           
+        <li><a  href="#">اتصل بنا</a></li>
+        <li><a  href="#">مكتبة الصور</a></li>
+        <li><a  href="#">الخدمات</a> </li>
+        <li><a  href="#"><i  class="fa fa-sort-desc"></i>التدريبات</a>
+                <div class="sub-menu-1">
+                        <ul>
+                                <li><a href="#">التسجيل بالدورات </a></li>
+                                <li><a href="#">الدورات المتاحة</a></li>
+                                <li><a href="#">الدورات السابقة</a></li>
+                        </ul>
+                </div>
+        </li>
+        <li><a  href="#"> القرارات</a></li>
+        <li><a  href="#"><i  class="fa fa-sort-desc"></i>مجلس الإدارة</a>
+                <div class="sub-menu-1">
+                        <ul>
+                                <li><a href="#">مجلس إدارة الغرفة</a></li>
+                                <li><a href="#">لجان الغرفة</a></li>
+                        </ul>
+                </div>
+        </li>
+        <li ><a  href="#"><i  class="fa fa-sort-desc"></i> أخر الأخبار</a>
+                <div class="sub-menu-1">
+
+                        <ul>
+                    <li><a href="index2.html">أخبارالغرفة</a></li>
+                    <li><a href="index3.html">فعاليات الغرفة</a></li>
+                    <li><a href="#">اجتماعات المجلس</a></li>
+                    <li><a href="#">المناسبات</a></li>
+                </ul>
+                </div>        
+        </li>
+        <li class="active"><a  href="index.html">الرئيسية</a></li>
+
+    </ul>
+         </div>
+                <i class="material-icons"  onclick="showMenu()">menu</i>
+                </nav>
+
+
+
+            <div class="text-box">
+                <h1>غرفة تجارة دمشق</h1>
+                <h2>نجمع   الجهود    لنصنع    مستقبل    أفضل</h2>
+            </div>    
+    
+</section>
+
+<script>
+    var menubar = document.getElementById("menubar");
+
+    function showMenu(){
+        menubar.style.right= "0";
+    }
+    function hideMenu(){
+        menubar.style.right = "-260px";
+    }
+
+
+</script>
+
+
+
+<section  class="events">
+
+
+<div class="news-container">
+
+    <h2 class="section-title">المركز الإعلامي</h2>
+
+    <div class="news-card">
+
+        <div class="slider">
+            <div class="label-overlay">آخر الأخبار</div>
+
+            <div class="slides-wrapper">
+                <img src="img/event-2.png" class="slide active">
+                <img src="img/event-1.png" class="slide">
+                <img src="img/event-3.png" class="slide">
+            </div>
+
+            <div class="dots">
+                <span class="dot active" onclick="changeSlide(0)"></span>
+                <span class="dot" onclick="changeSlide(1)"></span>
+                <span class="dot" onclick="changeSlide(2)"></span>
+            </div>
+        </div>
+
+        <div class="news-text">
+            <p class="date">08 أبريل 2026</p>
+            <h3 class="news-title" id="newsTitle">الغرفة تنظم لقاء "الفرص الاستثمارية 2026"</h3>
+            <p class="news-desc" id="newsDesc">
+                لقاء متخصص لعرض أبرز الفرص الاستثمارية لعام 2026 بحضور نخبة من رجال الأعمال.
+            </p>
+
+            <a href="index2.html" class="more-btn">المزيد...</a>
+        </div>
+
+    </div>
+
+</div>
+</section>
+<section class="e-services">
+
+    <div class="e-services-content">
+
+        <h2 class="es-title fade-in">الخدمات الإلكترونية</h2>
+
+        <div class="es-box slide-up">
+            <div class="icon">
+                <i class="fa-solid fa-mobile-screen-button"></i>
+            </div>
+            <div>
+                <h3 class="es-subtitle">تطبيق الهواتف الذكية</h3>
+                <p class="es-desc">
+                    تطبيق غرفة تجارة دمشق على الهواتف الذكية يوفر مجموعة من الخدمات الإلكترونية التي تسهّل تنفيذ الأعمال.
+                </p>
+            </div>
+        </div>
+
+        <div class="es-box slide-up">
+            <div class="icon">
+                <i class="fa-solid fa-briefcase"></i>
+            </div>
+            <div>
+                <h3 class="es-subtitle">بوابة أعمالي</h3>
+                <p class="es-desc">
+                    باقة من الخدمات المقدمة لمشتركي غرفة تجارة دمشق تتيح سهولة تنفيذ الأعمال.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+<script src="scripte.js"></script>
+<script>
+const elements = document.querySelectorAll('.slide-up, .fade-in');
+
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.style.opacity = "1";
+            entry.target.style.transform = "translateY(0)";
+        }
+    });
+});
+
+elements.forEach(el => observer.observe(el));
+</script>
+
+
+
+
+<section class="section">
+        <h2 class="section-title">الفعاليات</h2>
+        <div class="events-list">
+          <!-- Event 1 -->
+          <div class="event-card">
+            <div class="event-card__body">
+              <p class="event-card__title">أعضاء مجلس إدارة غرفة تجارة دمشق في ضيافة رئيس اتحاد غرف التجارة السورية:</p>
+              <div class="event-card__meta">
+                <span class="event-meta-item">
+                  <img src="assets/icon-clock.svg" alt="" class="meta-icon" />
+                  <span>12:30</span>
+                </span>
+                <span class="event-meta-item">
+                  <img src="assets/icon-calendar.svg" alt="" class="meta-icon" />
+                  <span>2025/9/11</span>
+                </span>
+              </div>
+            </div>
+            <img src="assets/event-1.png" alt="فعالية 1" class="event-card__img" />
+          </div>
+          <!-- Event 2 -->
+          <div class="event-card">
+            <div class="event-card__body">
+              <p class="event-card__title">لؤي الأشقر: الحوار وتكامل الجهود مفتاح تعافي الاقتصاد:</p>
+              <div class="event-card__meta">
+                <span class="event-meta-item">
+                  <img src="assets/icon-clock.svg" alt="" class="meta-icon" />
+                  <span>8:30</span>
+                </span>
+                <span class="event-meta-item">
+                  <img src="assets/icon-calendar.svg" alt="" class="meta-icon" />
+                  <span>2025/9/11</span>
+                </span>
+              </div>
+            </div>
+            <img src="assets/event-2.png" alt="فعالية 2" class="event-card__img" />
+          </div>
+          <!-- Event 3 -->
+          <div class="event-card">
+            <div class="event-card__body">
+              <p class="event-card__title">غرفة تجارة دمشق تنظّم ندوة حوارية حول مقاربات محلية وخارجية للاقتصاد السوري:</p>
+              <div class="event-card__meta">
+                <span class="event-meta-item">
+                  <img src="assets/icon-clock.svg" alt="" class="meta-icon" />
+                  <span>10:30</span>
+                </span>
+                <span class="event-meta-item">
+                  <img src="assets/icon-calendar.svg" alt="" class="meta-icon" />
+                  <span>2025/9/11</span>
+                </span>
+              </div>
+            </div>
+            <img src="assets/event-3.png" alt="فعالية 3" class="event-card__img" />
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+       <!-- STATISTICS -->
+      <section class="section1">
+        <h2 class="section1-title section1-title--stats">احصائيات الغرفة</h2>
+        <div class="stats-card">
+          <div class="stats-grid">
+            <div class="stat-item">
+              <div class="stat-label">عدد شهادات التصدير</div>
+              <div class="stat-number" data-target="9533">9533</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-label">عدد الخدمات المقدمة للأعضاء</div>
+              <div class="stat-number" data-target="9652">9652</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-label">عدد الأعضاء المجددين</div>
+              <div class="stat-number" data-target="4524">4524</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-label">عدد الأعضاء المسجلين عام 2024</div>
+              <div class="stat-number" data-target="64524">64524</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- FOOTER HOME -->
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <h3 class="footer-title">Address</h3>
+        <div class="footer-contacts">
+          <div class="footer-contact-item">
+            <img src="assets/icon-phone.svg" alt="" class="footer-icon" />
+            <span dir="ltr">+963-11-9953</span>
+          </div>
+          <div class="footer-contact-item">
+            <img src="assets/icon-email.svg" alt="" class="footer-icon" />
+            <span>Info@Dcc.Sy</span>
+          </div>
+          <div class="footer-contact-item">
+            <img src="assets/icon-location.svg" alt="" class="footer-icon" />
+            <span>الحريقة - دمشق - سوريا</span>
+          </div>
+        </div>
+        <div class="footer-social">
+          <img src="assets/social-icons-1.svg" alt="Social Media Icons" class="footer-social-img" />
+        </div>
+      </div>
+    </footer>
+  </div><!-- /page-home -->
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
